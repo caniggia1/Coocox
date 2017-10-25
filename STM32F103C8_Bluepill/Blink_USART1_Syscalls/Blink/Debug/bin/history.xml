@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.8.3 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Blink.map -O0 --gc-sections --specs=nano.specs -LC:\CooCox\CoIDE\configuration\ProgramData\Blink -TC:\CooCox\CoIDE\configuration\ProgramData\Blink/arm-gcc-link.ld -g">
+      <target file="Blink.elf" lastModified="15d0790902c">
+         <source file="..\obj\system_stm32f10x.o" lastModified="15d07908688"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="15d07908783"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15d079088b3"/>
+         <source file="..\obj\main.o" lastModified="15d079089fa"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15d07908b39"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="15d07908c71"/>
+         <source file="..\obj\syscalls.o" lastModified="15d07908d90"/>
+      </target>
+   </processor>
+</history>
