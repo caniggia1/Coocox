@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\Uporabnik\Documents\CooCox\STM32F103\Blink_USART1-RxInt\stm_lib -I..\..\..\..\..\Users\Uporabnik\Documents\CooCox\STM32F103\Blink_USART1-RxInt\cmsis_boot -I..\..\..\..\..\Users\Uporabnik\Documents\CooCox\STM32F103\Blink_USART1-RxInt\cmsis -I..\..\..\..\..\Users\Uporabnik\Documents\CooCox\STM32F103 -I..\..\..\..\..\Users\Uporabnik\Documents\CooCox\STM32F103\Blink_USART1-RxInt\stm_lib\inc -I..\..\..\..\..\Users\Uporabnik\Documents\CooCox\STM32F103\Blink_USART1-RxInt">
+      <target file="stm32f10x_rcc.o" lastModified="15cd492b8cc">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15ccf1d0d2a"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="15cd492b651">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="15ccf1cc638"/>
+      </target>
+      <target file="misc.o" lastModified="15cd492b9f7">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="15cd49026e5"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="15cd492b5d6">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15ccf1cc63c"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="15cd492b96d">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15ccf999855"/>
+      </target>
+      <target file="printf.o" lastModified="15cd492b824">
+         <source file="..\..\..\stdio\printf.c" lastModified="15cd469cc9a"/>
+      </target>
+      <target file="main.o" lastModified="15cd492b77d">
+         <source file="..\..\..\main.c" lastModified="15cd492af3a"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="15cd492b6e8">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15ccf8347db"/>
+      </target>
+   </processor>
+</history>
