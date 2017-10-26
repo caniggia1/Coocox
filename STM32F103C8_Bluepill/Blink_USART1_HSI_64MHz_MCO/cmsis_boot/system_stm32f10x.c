@@ -1105,33 +1105,28 @@ static void SetSysClockToHSI64(void)
 	//HCLK = SYSCLK = 64MHZ
 	//PCLK2 = HCLK = 64MHZ
 	//PCLK1 = HCLK = 32MHZ
-
+/*
 	//TURN ON HSI AND SET IT AS SYSCLK SRC
 	RCC_HSICmd(ENABLE);
 	while(RCC_GetFlagStatus(RCC_FLAG_HSIRDY) == RESET){};
-
+*/
 	//SET THE FLASH LATENCY AS PER OUR CLOCK
 	//FASTER THE CLOCK, MORE LATENCY THE FLASH NEEDS
 	//000 Zero wait state, if 0  MHz < SYSCLK <= 24 MHz
 	//001 One wait state, if  24 MHz < SYSCLK <= 48 MHz
 	//010 Two wait states, if 48 MHz < SYSCLK <= 72 MHz
 	FLASH_SetLatency(FLASH_Latency_2);			//++
-
+/*
 	//SET HSI AS SYSCLK SRC. CONFIGURE HCLK, PCLK1 & PCLK2
 	RCC_SYSCLKConfig(RCC_SYSCLKSource_HSI);
 	RCC_HCLKConfig(RCC_SYSCLK_Div1);
 	RCC_PCLK1Config(RCC_HCLK_Div1);
 	RCC_PCLK2Config(RCC_HCLK_Div1);
-
-	//SET THE FLASH LATENCY AS PER OUR CLOCK
-	//FASTER THE CLOCK, MORE LATENCY THE FLASH NEEDS
-	//000 Zero wait state, if 0  MHz < SYSCLK <= 24 MHz
-	//001 One wait state, if  24 MHz < SYSCLK <= 48 MHz
-	//010 Two wait states, if 48 MHz < SYSCLK <= 72 MHz
-
+*/
+/*
 	//DISABLE PLL
 	RCC_PLLCmd(DISABLE);
-
+*/
 	//CHANGE PLL SRC AND MULTIPLIER
 	RCC_PLLConfig(RCC_PLLSource_HSI_Div2, RCC_PLLMul_16);
 
@@ -1141,15 +1136,6 @@ static void SetSysClockToHSI64(void)
 	RCC_PLLCmd(ENABLE);
 	while(RCC_GetFlagStatus(RCC_FLAG_PLLRDY) == RESET){};
 	RCC_SYSCLKConfig(RCC_SYSCLKSource_PLLCLK);
-
-	//SET HCLK = SYSCLK = 64MHZ
-	RCC_HCLKConfig(RCC_SYSCLK_Div1);
-
-	//SET PCLK2 = HCLK = 64MHZ
-	RCC_PCLK2Config(RCC_HCLK_Div1);
-
-	//SET PCLK1 = HCLK/2 = 32MHZ
-	RCC_PCLK1Config(RCC_HCLK_Div2);
 
 // SystemCoreClockUpdate();	// it will calculate: SystemCoreClock = 64000000
 // upper line is not needed, because variable "SystemCoreClock" is already set from #define on beginning of this file with:
