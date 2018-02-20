@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F417VE -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\uporabnik\Documents\CooCox\STM32F407\Blink_USART1\cmsis_boot -I..\..\..\..\..\Users\uporabnik\Documents\CooCox\STM32F407\Blink_USART1 -I..\..\..\..\..\Users\uporabnik\Documents\CooCox\STM32F407\Blink_USART1\cmsis_lib\include -I..\..\..\..\..\Users\uporabnik\Documents\CooCox\STM32F407 -I..\..\..\..\..\Users\uporabnik\Documents\CooCox\STM32F407\Blink_USART1\cmsis_lib -I..\..\..\..\..\Users\uporabnik\Documents\CooCox\STM32F407\Blink_USART1\cmsis">
+      <target file="stm32f4xx_rcc.o" lastModified="16109733877">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="161042d85a4"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="16109733b42">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16108a3bb93"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="16109733a63">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="161044d63e8"/>
+      </target>
+      <target file="printf.o" lastModified="16109733979">
+         <source file="..\..\..\stdio\printf.c" lastModified="16109689b2e"/>
+      </target>
+      <target file="main.o" lastModified="16109733767">
+         <source file="..\..\..\main.c" lastModified="16109732904"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="16109733586">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="1610951ec5f"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1610973365b">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="161042d85ba"/>
+      </target>
+   </processor>
+</history>
