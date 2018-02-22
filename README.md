@@ -2,4 +2,4 @@
 
 Download:   http://www.coocox.org/download/Tools/CoIDE-1.7.8.exe
 
-Using STM32F10x SPL(standard peripheral library) v3.5.0
+Using STM32F10x SPL(standard peripheral library)
