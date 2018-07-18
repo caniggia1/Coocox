@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.8.3 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=blink.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\blink -TC:\CooCox\CoIDE\configuration\ProgramData\blink/arm-gcc-link.ld -g">
+      <target file="blink.elf" lastModified="164ace77206">
+         <source file="..\obj\stm32f0xx_crc.o" lastModified="164ace7583d"/>
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="164ace75949"/>
+         <source file="..\obj\stm32f0xx_adc.o" lastModified="164ace75a3b"/>
+         <source file="..\obj\stm32f0xx_iwdg.o" lastModified="164ace75b0c"/>
+         <source file="..\obj\stm32f0xx_cec.o" lastModified="164ace75bec"/>
+         <source file="..\obj\main.o" lastModified="164ace75cc5"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="164ace75d03"/>
+         <source file="..\obj\stm32f0xx_dma.o" lastModified="164ace75dde"/>
+         <source file="..\obj\stm32f0xx_spi.o" lastModified="164ace75ecc"/>
+         <source file="..\obj\stm32f0xx_i2c.o" lastModified="164ace75fc2"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="164ace7609f"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="164ace7617c"/>
+         <source file="..\obj\stm32f0xx_comp.o" lastModified="164ace76251"/>
+         <source file="..\obj\stm32f0xx_rtc.o" lastModified="164ace7635f"/>
+         <source file="..\obj\stm32f0xx_usart.o" lastModified="164ace76462"/>
+         <source file="..\obj\stm32f0xx_crs.o" lastModified="164ace7654a"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="164ace7668e"/>
+         <source file="..\obj\stm32f0xx_it.o" lastModified="164ace7677f"/>
+         <source file="..\obj\stm32f0xx_flash.o" lastModified="164ace76881"/>
+         <source file="..\obj\stm32f0xx_exti.o" lastModified="164ace76961"/>
+         <source file="..\obj\stm32f0xx_wwdg.o" lastModified="164ace76a3f"/>
+         <source file="..\obj\stm32f0xx_dbgmcu.o" lastModified="164ace76b1b"/>
+         <source file="..\obj\stm32f0xx_syscfg.o" lastModified="164ace76bfc"/>
+         <source file="..\obj\stm32f0xx_pwr.o" lastModified="164ace76cd7"/>
+         <source file="..\obj\stm32f0xx_can.o" lastModified="164ace76dd5"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="164ace76ea7"/>
+         <source file="..\obj\stm32f0xx_dac.o" lastModified="164ace76f88"/>
+      </target>
+   </processor>
+</history>
